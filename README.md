@@ -69,22 +69,22 @@ Edit the code where you declared the companyNameWidget Container. Use a decorati
 Save the main.dart file.
 A border should appear.
 
-Change the Border
+# 7. Change the Border
 The border might look better if it wasn’t the same width as the screen. Use margins to specify the amount of space on the outside of widgets.
 
-Add a margin constructor parameter to the Container. We will use an EdgeInset with left and right parameters that each take a number of pixels. Pick a number of pixels that works well with the company name you chose.
+# 8.Add a margin constructor parameter to the Container. We will use an EdgeInset with left and right parameters that each take a number of pixels. Pick a number of pixels that works well with the company name you chose.
 Save the main.dart file.
 The border should look much better now!
 
-Add a Question Underneath
+# 9. Add a Question Underneath
 You are creating a survey application, so you need to ask a question. Display a question underneath the company name.
 
-Create the question using a Text widget. Make sure to add a style so that the text is pleasant to look at. Name the widget questionWidget.
+# 10. Create the question using a Text widget. Make sure to add a style so that the text is pleasant to look at. Name the widget questionWidget.
 This new widget won’t be visible until you add it to the Scaffold body. The Scaffold body only allows a single widget, so you will need to wrap the companyNameWidget and questionWidget inside a Column widget. The Column widget will stack these widgets vertically.
 Save the main.dart file.
 You should see the company name at the top and the question below.
 
-Add a Thumbs Up & Thumbs Down
+# 11 Add a Thumbs Up & Thumbs Down
 Our survey is almost complete!
 
 Add a thumbs-up and a thumbs-down icon. You will be using the Icons.thumb_up and the Icons.thumb_down icons. Make sure to give the icons colors and sizes.
